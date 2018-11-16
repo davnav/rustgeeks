@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## Welcome to Rust Geeks page
 
-You can use the [editor on GitHub](https://github.com/davnav/rustgeeks.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Here we will go through some of the Rust examples and will try to solve some computer/SDE interview questions or Problems in rust programming language
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Catergories
 
-### Markdown
+The problems/algorithms can be Easy,Medium or Hard. If you are newbie to programming , you might have noticed most of the schools/colleges start with "C Programming " language.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+But as an alternative , I would reccommend, start with Rust programming language. As you all know C was early computer language and created at 1989. Computer programming languages were evolving over the years.So in a way we can say Rust programming languages evolved after 30 years programming language researches. 
+So its better to start with Rust programming language if you are beginning. But you can learn C/other languages also.
 
-```markdown
-Syntax highlighted code block
+Having said this we will start with some easy Rust examples.
+I would recommend you to read through the https://doc.rust-lang.org/ as a prerequisite. But we will try to explain the concepts and solutions  when we come across each problems in the coming posts.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/davnav/rustgeeks.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
