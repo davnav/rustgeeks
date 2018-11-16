@@ -17,4 +17,4 @@ Having said this we will start with some easy Rust examples.
 I would recommend you to read through the https://doc.rust-lang.org/ as a prerequisite. But we will try to explain the concepts and solutions  when we come across each problems in the coming posts.
 
 
-<a href="./rustgeeks.github.io/rustadd.md">Rust Example1 </a>
+<a href="./rustadd.md">Rust Example1 </a>
