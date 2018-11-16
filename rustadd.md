@@ -1,6 +1,6 @@
 **Problem:**
 
->Create a function to add 2 numbers in Rust.
+>Create a function to add 2 numbers in Rust
 
 
 **Solution**
