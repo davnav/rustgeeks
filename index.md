@@ -1,5 +1,6 @@
 
 
+
 ## Welcome to Rust Geeks page
 
 Here we will go through some of the Rust examples and will try to solve some Computer/SDE questions or Problems in rust programming language
@@ -18,3 +19,8 @@ I would recommend you to read through the https://doc.rust-lang.org/ as a prereq
 
 
 <a href="rustadd.html">Rust Example1 </a>
+
+<details open>
+  <summary>Contents</summary>
+    <a href="rustadd.html">Rust Example1 </a>
+  </details>
