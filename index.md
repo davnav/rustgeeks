@@ -22,5 +22,6 @@ I would recommend you to read through the https://doc.rust-lang.org/ as a prereq
 
 <details open>
   <summary>Contents</summary>
-    <a href="rustadd.html">Rust Example1 </a>
+    <a href="rustadd.html">Rust Add</a>
+  <a href="rust_StringMax.html">Max String</a>
   </details>
