@@ -3,13 +3,14 @@
 >Create insertion sort program in Rustprogramming Language
 
 > input: is a Vector [12,34,32,11,56,2]
-> output: print the arrary elements in sorted format
+> output: print the Vector elements in sorted format
 
->If you are not sure how sorting algorithm works :
-  Clue: One loop read the elements of the from left right from second element onwards.
-        from the first loop point element will be picked and checked from right to left most in the second and insert
-        correct position.
-        
+Note : Vector and Arrays are different in Rust on how/where data stores
+
+>If you are not sure how insert sorting algorithm works :
+  Clue: 1. One loop read the elements of the Vector from left to right from second element onwards to last element.
+        2. from the first loop point element ( we can call it as Key) , we will compare from right to left and insert the key in the correct position
+            
  | 12 | 34 | 32 | 11 | 56 | 2 |
  |----|----|----|----|----|----|
  | 12 | **34** | 32 | 11 | 56 | 2 | 
@@ -17,6 +18,13 @@
  | 11 | 12 | 32 | **34** | 56 | 2 |
  | 11 | 12 | 32 | 34 | **56** | 2 |
  | 2 | 11 | 12 | 32 | 34 | **56** | 
+ 
+ If you look at each iteration of the both loops above table of output will be getting generated , loops needs iteration needs only through bolded elements in diagonal of the square are (N * N)/2 
+ 
+ ie time complexicity is O(n) = n^2
+ 
+ [https://en.wikipedia.org/wiki/Insertion_sort]
+ 
  
 
 **Solution**
