@@ -27,25 +27,53 @@ Note : Vector and Arrays are different in Rust on how/where data stores
  
  
 
-**Solution**
+**Solution1**
 
 ```
   //function for insert logic
   
-  fn insertsort(x: i32, y: i32) -> i32 {
-    //calculate the sum and the expression get evaluated and return back, note there is no ";" for the statement 
-    x + y
+  fn insertsort(v:&Vec<i32>) -> i32 {
+  
+  //first "for" loop to get elements from second position to last element ( left to right )
+  
+    for i in 1..v.len(){
+      let key = v[i];
+      let mut j = i-1;
+      
+   //the last iteration needs to handle seperately, because j is taken an unsigned integer. so that last case loop execute
+   //if we give condition j>=0, but we have j = j-1 statement which will get panic when it goes negative.
+   
+   //second while loop to iterate reverse direction( right to left ) from the first loop element which we call it as "key"
+   
+      while j>0 && v[j] > key{
+              v[j+1] = v[j];
+              j = j-1;
+      }
+
+     v[j+1] = key;
+     
+   // last iteration step handled seperately with if condition.
+    if j==0 && v[0] > key{
+          v[1] = v[0];
+          v[0] = key;
+    }else{
+          v[j+1] = key;
+    }
+
+
   }
+    
   //main program which call the function
   fn main() {
-      //declare the vector 
-      let v = 
-      println!("{}", m);
+ 
+      //declare the vector Read more on Vector here [https://github.com/nrc/r4cppp/blob/master/arrays.md]
+      let mut v = vec![12,34,32,11,56,2];
+      
+      //call the function with mutable reference as we need to change the Vector elements position
+      insertsort(&mut v);
+      
+      //print the vector elements
+      println!("{:?}",v);
+      
   }
 ```
-
-As all programming language we need to create a main function in Rust. In main function we are calling the function "add" 
-hardcoded values 1 and 2. Since the Rust is dynamically typed language, the values types will be considered as integers. 
-The function definition should start with keyword **fn**. The add functions receiving parameters are 'x' and 'y' variables.
-Here you might have noticed the we need to explicitly provide the types of the parameters. The return value type also need 
-to given with **->** symbol.
