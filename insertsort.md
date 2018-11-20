@@ -1,4 +1,4 @@
-**Problem:**
+**Problem:(Medium)**
 
 >Create insertion sort program in Rustprogramming Language
 
@@ -19,7 +19,7 @@ Note : Vector and Arrays are different in Rust on how/where data stores
  | 11 | 12 | 32 | 34 | **56** | 2 |
  | 2 | 11 | 12 | 32 | 34 | **56** | 
  
- If you look at each iteration of the both loops above table of output will be getting generated , loops needs iteration needs only through bolded elements in diagonal of the square are (N * N)/2 
+ If you look at each iteration of the both loops above table of output will be getting generated , loops needs iteration only through bolded elements in diagonal of the square : (N * N)/2 
  
  ie time complexicity is O(n) = n^2
  
@@ -30,15 +30,16 @@ Note : Vector and Arrays are different in Rust on how/where data stores
 **Solution**
 
 ```
-  //function for addtion which accepts 2 integer parameters and return an integer
+  //function for insert logic
   
-  fn add(x: i32, y: i32) -> i32 {
+  fn insertsort(x: i32, y: i32) -> i32 {
     //calculate the sum and the expression get evaluated and return back, note there is no ";" for the statement 
     x + y
   }
   //main program which call the function
   fn main() {
-      let m = add(1,2);
+      //declare the vector 
+      let v = 
       println!("{}", m);
   }
 ```
