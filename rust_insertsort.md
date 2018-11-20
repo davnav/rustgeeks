@@ -23,14 +23,14 @@ Note : Vector and Arrays are different in Rust on how/where data stores
  
  ie time complexicity is O(n) = n^2
  
- [https://en.wikipedia.org/wiki/Insertion_sort]
+ Insert Sort(https://en.wikipedia.org/wiki/Insertion_sort)
  
  
 
 **Solution1**
 
 ```
-  //function for insert logic
+  //function for insert sort logic
   
   fn insertsort(v:&Vec<i32>) -> i32 {
   
