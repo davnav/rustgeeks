@@ -25,5 +25,4 @@ I would recommend you to read through the <a href="https://doc.rust-lang.org/">h
     <a href="rustadd.html">Rust Add</a>
   <a href="rust_LongestString.html">Longest String</a>
   <a href="rust_insertsort.html">InsertSort</a>
-  <a href="rust_merge.html">MergeVector</a>
   </details>
