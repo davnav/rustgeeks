@@ -1,6 +1,6 @@
 **Problem:(Easy)**
 
-> create a Merge function for 2 vectors merge together to single vector using Rust programming language
+> create a Merge function for 2 vectors to merge together to single vector using Rust programming language
 
 > input: Vector1 [2,3,4,5] and Vector 2 = [6,7,19,20]
 > output: print the Vector as [2,3,4,5,6,7,19,20
