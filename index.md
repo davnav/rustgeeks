@@ -26,4 +26,5 @@ I would recommend you to read through the <a href="https://doc.rust-lang.org/">h
   <a href="rust_LongestString.html">Longest String</a>
   <a href="rust_insertsort.html">InsertSort</a>
   <a href="rust_merge.html">merge</a>
+  <a href="rust_merge_sortedvectors.html">merge_sorted_halves</a>
   </details>
