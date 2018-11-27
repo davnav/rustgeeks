@@ -1,6 +1,6 @@
 **Problem:(Meduim)**
 
-> create a Merge Vector as sorted  for a vector which left side and right side of Mid point are sorted.
+> **create a Merge Vector as sorted  for a vector which left side and right side of Mid point are sorted.**
 
 > input: Vector1 [2,13,14,15,6,7,19,20]
 > output: print the Vector as [2,5,6,7,13,14,19,20]
