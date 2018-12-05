@@ -19,29 +19,34 @@ Note : Vector and Arrays are different in Rust on how/where data stores
 **Solution1**
 
 ```
- 
+///main function which calls the mergesort
+
 fn main(){
 	let mut v = vec![2,56,12,11,34,59,12,2342];
 	let n = v.len() as usize ;
 	let i = 0;
-
+///calling mergesort function with vector passed with mutable reference
 	mergesort(&mut v,i,n-1);
 	
 	println!("{:?}",v);
 
 }
 
-fn mergesort(v:&mut Vec<i32>,i:usize,j:usize){
-	
-	let mid = (i+j)/2;
+///definition of 'mergesort' function with lower_limit and upper_limit of the passed/divided Vector
 
-	if  i<j  {
-//		let mid = (i+j)/2;
-		println!("mid={},i={},j={}",mid,i,j);
-		mergesort(v,i,mid);
-		mergesort(v,mid+1,j);
-		
-		merge(v,i,mid,mid+1,j);
+fn mergesort(v:&mut Vec<i32>,lower_limit:usize,upper_limit:usize){
+	
+/// make the vector as half using 'mid' for calling 'mergesort'	 again in recursive mode.
+	let mid = (lower_limit+upper_limit)/2;
+
+	if  lower_limit< upper_limit  {
+//		let mid = (lower_limit+upper_limit)/2;
+		println!("mid={},lower_limit={},upper_limit={}",mid,lower_limit,upper_limit);
+		mergesort(v,lower_limit,mid); // the first half of the vector will be sorted 
+		mergesort(v,mid+1,upper_limit); // second half of the vector will be sorted
+
+/// call the merge function to combine the sorted Vectors in sorted order together.		
+		merge(v,lower_limit,mid,mid+1,upper_limit);
 	}
 
 }
