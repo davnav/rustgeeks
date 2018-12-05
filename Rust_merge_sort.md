@@ -9,7 +9,7 @@ Note : Vector and Arrays are different in Rust on how/where data stores
 
 >hint: You can use 'push' method to add element into a Vector 
 >      You can use recursion as we need to use "divide and conquer" idea
->      You can make use of previous problem( merge sorted vectors)  <a href="rust_merge.html">merge sorted vectors</a>
+>      You can make use of previous problem( merge sorted vectors)  <a href="rust_merge.md">merge sorted vectors</a>
 
 
 
