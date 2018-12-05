@@ -22,9 +22,10 @@ I would recommend you to read through the <a href="https://doc.rust-lang.org/">h
 
 <details open>
   <summary>Contents</summary>
-    <a href="rustadd.html">Rust Add</a>
-  <a href="rust_LongestString.html">Longest String</a>
-  <a href="rust_insertsort.html">InsertSort</a>
-  <a href="rust_merge.html">merge</a>
-  <a href="rust_merge_sortedvectors.html">merge_sorted_halves</a>
+    <a href="rustadd.html">Rust Add</a><br>
+  <a href="rust_LongestString.html">Longest String</a><br>
+  <a href="rust_insertsort.html">InsertSort</a><br>
+  <a href="rust_merge.html">merge</a><br>
+  <a href="rust_merge_sortedvectors.html">merge_sorted_halves</a><br>
+  <a href="rust_merge_sortedvectors.html">merge_sort</a>
   </details>
