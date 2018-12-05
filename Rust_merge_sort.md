@@ -7,8 +7,8 @@
 
 Note : Vector and Arrays are different in Rust on how/where data stores
 
->hint: You can use 'push' method to add element into a Vector 
->      You can use recursion as we need to use "divide and conquer" idea
+>hint: You can use 'push' method to add element into a Vector<br>
+>      You can use recursion as we need to use "divide and conquer" idea<br>
 >      You can make use of previous problem( merge sorted vectors)  <a href="rust_merge_sortedvectors.md.md">merge sorted vectors</a>
 
 
