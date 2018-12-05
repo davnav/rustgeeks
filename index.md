@@ -21,11 +21,16 @@ I would recommend you to read through the <a href="https://doc.rust-lang.org/">h
 <a href="rustadd.html">Rust Example1 </a>
 
 <details open>
-  <summary>Contents</summary>
+  <summary>Easy</summary>
     <a href="rustadd.html">Rust Add</a><br>
-  <a href="rust_LongestString.html">Longest String</a><br>
-  <a href="rust_insertsort.html">InsertSort</a><br>
-  <a href="rust_merge.html">merge</a><br>
-  <a href="rust_merge_sortedvectors.html">merge_sorted_halves</a><br>
-  <a href="rust_merge_sortedvectors.html">merge_sort</a>
+    <a href="rust_LongestString.html">Longest String</a><br>
+    <a href="rust_merge.html">merge</a><br>
+
+  </details>
+  
+  <details open>
+  <summary>Medium</summary>
+    <a href="rust_insertsort.html">InsertSort</a><br>
+    <a href="rust_merge_sortedvectors.html">merge_sorted_vectors</a><br>
+    <a href="rust_merge_sort.html">merge_sort</a><br>
   </details>
