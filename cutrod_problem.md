@@ -12,7 +12,7 @@ rod length =8
 We need to find maximum of 'price at cutting each length + maximum Profit getting when excluding decided cutting length) 
 
 ie : 
-Note : Vector index start from 0 to n-1, so price[0] = 3
+Note : Vector index start from 0 to n-1, so price[0] = 1
 > MAX ( price[0] +cutRod_maxProfit(8-0-1),price[1]+cutRod_maxProfit(8-1-1),price[2]+cutRod_maxProfit(5)....
         ...price[7]+cutRod_maxProfit(0) )
 
