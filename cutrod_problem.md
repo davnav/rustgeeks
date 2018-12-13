@@ -7,10 +7,13 @@
  > output: output will be 22
 
 Note : Vector and Arrays are different in Rust on how/where data stores
+rod length =8 
 
->If you are not sure how insert sorting algorithm works :
-  Clue: 1. One loop read the elements of the Vector from left to right from second element onwards to last element.
-        2. from the first loop point element ( we can call it as Key) , we will compare from right to left and insert the key in the correct position
+We need to find maximum of 'price at cutting each length + maximum Profit getting when excluding decided cutting length) 
+
+ie :  
+> max ( price[1] +cutMod(8-1-1),
+
             
  |    | 1  | 2 |  3  | 4  | 5  | 6  |  7|  8|
  |----|----|----|----|----|----|----|---|---|
@@ -24,7 +27,7 @@ Note : Vector and Arrays are different in Rust on how/where data stores
  
  
 
-**Solution1**
+**Solution1 - Using Recursion**
 
 ```
  
@@ -65,7 +68,7 @@ fn cut_rod(n:usize,price:&Vec<i32>) -> i32{
 		return 0
 	}
 	
-	for i in 1..n{
+	for i in 0..n{
 		 println!("i={},n={},max_val={}",i,n,max_val);
 		 max_val = max(max_val,price[i]+cut_rod(n-i-1,price));
 		
