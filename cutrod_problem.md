@@ -1,10 +1,12 @@
 **Problem:(Medium)**
 
->How to cut the rod of length n with given price Vector
+>How to cut the rod of length n with given price Vector for getting maximum profit
 
 > input: Price Vector [1,5,8,9,10,17,17,20]
          length       [1,2,3,4,5,  6, 7,8 ]
- > output: output will be 22
+ > output: output will be 22 
+ 
+ ( ie: it should cut at length 6 and 2 to get maximum profit ( 17 +5 = 22 ))
 
 Note : Vector and Arrays are different in Rust on how/where data stores
 rod length =8 
