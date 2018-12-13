@@ -2,7 +2,7 @@
 
 >How to cut the rod of length n with given price Vector
 
-> input: Price Vector [3,5,8,9,10,17,17,20]
+> input: Price Vector [1,5,8,9,10,17,17,20]
          length       [1,2,3,4,5,  6, 7,8 ]
  > output: output will be 22
 
@@ -11,8 +11,10 @@ rod length =8
 
 We need to find maximum of 'price at cutting each length + maximum Profit getting when excluding decided cutting length) 
 
-ie :  
-> max ( price[1] +cutMod(8-1-1),
+ie : 
+Note : Vector index start from 0 to n-1, so price[0] = 3
+> MAX ( price[0] +cutRod_maxProfit(8-0-1),price[1]+cutRod_maxProfit(8-1-1),price[2]+cutRod_maxProfit(5)....
+        ...price[7]+cutRod_maxProfit(0) )
 
             
  |    | 1  | 2 |  3  | 4  | 5  | 6  |  7|  8|
