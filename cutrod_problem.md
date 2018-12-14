@@ -2,11 +2,11 @@
 
 >**How to cut the rod of length n with given price Vector for getting maximum profit**
 
-> input: Price Vector [1,5,8,9,10,17,17,20]
+> input: Price Vector [3,5,8,9,10,17,17,20]
          length       [1,2,3,4,5,  6, 7,8 ]
- > output: output will be 22 
+ > output: output will be 24 
  
- ( ie: it should cut at length 6 and 2 to get maximum profit ( 17 +5 = 22 ))
+ ( ie: it should cut at length 6 and 2 to get maximum profit ( 8*(1*3) = 24 ))
 
 
 
@@ -26,6 +26,12 @@ can be found from cutrod_maxprofit(7,price)
 Note : Vector index start from 0 to n-1, so price[0] = 1
      : Vector and Arrays are different in Rust on how/where data stores
 	
+**Please fill rest of the coloumn,you will see a pattern
+eg: if you see cutting rod of length 3 , with piece of length 3, the profit is 8
+    but max profit of cutting rod of length 3, with piece of {1,2} is 9  
+    since 9 > 8 , just put the greater that value (from above coloumn) to that coloumn
+    
+    
 
             
  |    | 1  | 2 |  3  | 4  | 5  | 6  |  7|  8|
