@@ -30,8 +30,8 @@ Note : Vector index start from 0 to n-1, so price[0] = 1
             
  |    | 1  | 2 |  3  | 4  | 5  | 6  |  7|  8|
  |----|----|----|----|----|----|----|---|---|
- |  1 | 3  | 6 | 9  | 12 | 15 | 18 | 21 | 24|
- |  2 | 3 | 6  | 9  |  |
+ |  1 | 3(max profitfor length 1 with 1 length piece)  | 6 | 9  | 12 | 15 | 18 | 21 | 24(max profitfor length 1 with length piece{1})|
+ |  2 | 3(max profitfor length 1 with length piece{1,2}) | 6  | 9 (max profitfor length 3 with length piece{1,2}) |  |
  |  3 |  |  |  |  |  |
  |  4 |  |  |  |  |  |
  |  5 |  |  |  |  |  | 
