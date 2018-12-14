@@ -27,8 +27,8 @@ Note : Vector index start from 0 to n-1, so price[0] = 1
      : Vector and Arrays are different in Rust on how/where data stores
 	
 **Please fill rest of the coloumn,you will see a pattern
-eg: if you see cutting rod of length 3 , with piece of length 3, the profit is 8
-    but max profit of cutting rod of length 3, with piece of {1,2} is 9  
+eg: if you see cutting rod of length 3 , with piece of length 2, the profit is 8
+    but max profit of cutting rod of length 3, with piece of {1,2} is 9 because with piece of length 1 maxprofit is 9
     since 9 > 8 , just put the greater that value (from above coloumn) to that coloumn
     
     
