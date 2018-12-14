@@ -6,7 +6,7 @@
          length       [1,2,3,4,5,  6, 7,8 ]
  > output: output will be 24 
  
- ( ie: it should cut at length 6 and 2 to get maximum profit ( 8*(1*3) = 24 ))
+ ( ie: it should cut at length 1 of 8 pieces  to get maximum profit ( 8*(3) = 24 ))
 
 
 
