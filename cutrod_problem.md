@@ -1,6 +1,6 @@
-**Problem:(Medium)**
+**Problem:(Medium)- Rust programming language **
 
->**How to cut the rod of length n with given price Vector for getting maximum profit**
+>**How to cut the rod of length n with given price Vector for getting maximum profit using Rust programming language**
 
 > input: Price Vector [3,5,8,9,10,17,17,20]
          length       [1,2,3,4,5,  6, 7,8 ]
