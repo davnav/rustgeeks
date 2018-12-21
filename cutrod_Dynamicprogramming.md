@@ -14,18 +14,18 @@
 
 We need to find maximum of 'price at cutting each length + maximum Profit getting when excluding decided cutting length) 
 
-ie : 
-
-rod length =8 
+ie : rod length =8 
 
 > **MAX ( price[0] +cutRod_maxProfit(8-0-1),price[1]+cutRod_maxProfit(8-1-1),price[2]+cutRod_maxProfit(8-2-1)....
         ...price[7]+cutRod_maxProfit(0) )**
 ```	
+
 If we decided to go with price[0] means we decided to cut one piece with length 1 ,
 then only option for us is to think of how to get maximum profit from remain length 7 which is 
 can be found from cutrod_maxprofit(7,price)
 
 store the values found each call for cutRod_maxProfit in another vector
+
 ```
 Note : Vector index start from 0 to n-1, so price[0] = 1
      : Vector and Arrays are different in Rust on how/where data stores
@@ -53,10 +53,7 @@ eg: if you see cutting rod of length 3 , with piece of length 2, the profit is 8
 **Solution1 - Using Dynamic Programming**
 
 ```
- 
-
-
-fn main(){
+ fn main(){
 
 	//price vector has price for each length 1,2,3..8
 	let price = vec![3,5,8,9,10,17,17,20];
