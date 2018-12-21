@@ -34,4 +34,5 @@ I would recommend you to read through the <a href="https://doc.rust-lang.org/">h
     <a href="rust_merge_sortedvectors.html">merge_sorted_vectors</a><br>
     <a href="Rust_merge_sort.html">merge_sort</a><br>
    <a href="cutrod_problem.html">Cutting Rod problem-Rust programming </a><br>
+  <a href="cutrod_Dynamicprogramming.html">Cutting Rod-Rust Dynamic programming</a><br> 
   </details>
