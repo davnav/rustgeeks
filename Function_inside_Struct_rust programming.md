@@ -3,8 +3,8 @@
 > create a a Struct with a value and function as a types inside. Call the function with parameter as the value type in the struct
 
 struct Func_struct{
-    val: i32
-    func: address to the function
+    val: i32,
+    func: address to the function,
  }
 
 > 
