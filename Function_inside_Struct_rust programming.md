@@ -1,6 +1,6 @@
 **Problem:(Medium)**
 
-> create a a Struct with a value and function as a types inside. Call the function with parameter as the value type in the struct
+> create a a Struct with a value and function to evaluate the value is Even or not . Call the function with parameter as the value type in the struct
 
 struct Func_struct{
     val: i32,
