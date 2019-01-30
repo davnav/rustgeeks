@@ -43,6 +43,13 @@ Note : You can use below 3 pointer operators to allocate a memory space for Tree
 		if self.left.is_none(){
 			self.left = Some(Node::new(new_value));
 		}
+		
+	pub fn right(&mut self,new_value:i32){
+		
+		if self.right.is_none(){
+			self.right = Some(Node::new(new_value));
+		}
+
 
 	
 	}
@@ -56,6 +63,7 @@ fn main(){
 	let mut root = Node::new(100);
 
 	root.left(50);
+	root.right(30);
 	println!("{:#?}",root);
 
 
