@@ -9,7 +9,7 @@
  
  
 
-**Solution1**
+**Solution1- Bottom Up**
 
 ```
  
